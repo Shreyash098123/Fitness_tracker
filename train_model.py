@@ -42,7 +42,7 @@ joblib.dump(le_gender, "models/label_encoder_gender.pkl")
 joblib.dump(le_workout, "models/label_encoder_workout.pkl")
 
 print("✅ Linear Regression model training complete and saved.")
-=======
+
 import os
 import pandas as pd
 import joblib
@@ -86,4 +86,4 @@ joblib.dump(le_gender, "models/label_encoder_gender.pkl")
 joblib.dump(le_workout, "models/label_encoder_workout.pkl")
 
 print("✅ Model training complete. Files saved in 'models/'.")
->>>>>>> 0e27b57bc1b9b6dec4aced749155c7ccbb5a9bc1
+
