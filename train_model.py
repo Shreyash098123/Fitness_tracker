@@ -87,3 +87,11 @@ joblib.dump(le_workout, "models/label_encoder_workout.pkl")
 
 print("✅ Model training complete. Files saved in 'models/'.")
 
+def train_model():
+    # Insert model training code here if needed
+    return model  # Optional
+
+def load_data():
+    import pandas as pd
+    df = pd.read_csv("data/workout_fitness_tracker_data.csv")
+    return df
